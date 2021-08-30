@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee</title>
+</head>
+<style>
+
+
+
+
+html,body{
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+.logo{
+    height:80px;
+}
+.logo-image{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.header{
+
+    display:flex;
+    padding:8px 12px;
+    align-items: center;
+    background:#0b421a;
+    
+
+}
+
+.menu{
+    margin-left:auto;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    color:white;
+    padding:4px 12px;
+    margin:33px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background:black;
+    border: 10px;
+    border-radius: 10%;
+}
+
+.container{
+
+    display:flex;
+    height:calc(100% - 92px);
+    overflow: auto;
+    justify-content: space-between;
+    
+}
+
+.a{
+  
+    width:50%;
+    background:whitesmoke;
+    align-items: center;
+    
+
+
+    
+
+}
+.texto1-a{
+   
+    height: 233px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.texto1-b{
+    width: 999px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+
+
+    
+}
+
+
+#h2-1{
+
+    object-fit: contain;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 44px;
+    text-align: center;
+    text-decoration: dotted;
+ 
+}
+#h2-2{
+
+
+    text-align: center;
+    font-family:arial;
+    font-size:31px;
+    letter-spacing: 12px;
+    
+    color:#0e3742;
+
+    line-height:0.90em;
+    outline:none;
+    animation: animate1 5s linear infinite;
+
+
+
+}
+
+
+@keyframes animate1{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#fffcfc;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,20%,92.1%,100%{
+        color:#fffcfc;
+        text-shadow: 0 0 10px #0b421a,
+        0 0 20px #0b421a,
+        0 0 40px #0b421a,
+        0 0 80px #0b421a,
+        0 0 160px #0b421a;
+    }
+}
+
+
+
+
+.b{
+    
+    width:50%;
+    background:#CEE5D0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imagem-direita{
+    text-align: center;
+    display:flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    object-fit: contain;
+
+}
+
+
+.caixapreçopromo{
+    width: 622px;
+    height:200px;
+    margin-left: 255px;
+    text-align: center;
+    margin-bottom: center;
+
+
+}
+
+.preçopromo{
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 43px;
+
+}
+.preçopromovalor{
+    text-shadow: #0b421a;
+    background-color: #0e3742;
+    text-align: center;
+    color:white;
+    font-size: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.preçopromovalor:hover {
+    color:black;
+    background:#0b421a;
+    
+}
+
+
+.container2{
+    display:flex;
+    height:calc(100% - 92px);
+    overflow: auto;
+    justify-content: space-between;
+}
+
+.c{
+    width:50%;
+    background: #f7f7f6
+    ;
+}
+
+.d{
+    width:50%;
+    background: #FCD8D4;
+}
+
+.d img{
+
+    display:flex;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    
+
+}
+
+
+
+
+
+.container3{
+    display:flex;
+    height:calc(100% - 92px);
+    overflow: auto;
+    justify-content: space-between;
+}
+
+.e{
+
+    width:100%;
+    text-align: center;
+
+}
+
+.f{
+    width: 50%;
+    background: black;
+}
+
+#map {
+    display:flex;
+    object-fit: contain;
+    justify-items: center;
+    justify-content: center;
+
+    
+
+
+  }
+
+
+.Localização{
+    width: 500px;
+    height: 155px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Localização p{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+ 
+}
+.texto1-c{
+    justify-content: center;
+    width: 855px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+    text-align: center;
+    font-size: 35px;
+    
+
+}
+.h2-3{
+    object-fit: contain;
+   
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: dotted;
+
+}
+
+#h2-4{
+
+    height: 150px;
+    text-align: center;
+    font-family:arial;
+    font-size:40px;
+    letter-spacing: 12px;
+    
+    color:#0e3742;
+
+    line-height:0.90em;
+    outline:none;
+    animation: animate2 5s linear infinite;
+
+
+
+}
+
+
+@keyframes animate2{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:#FCD8D4;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,20%,92.1%,100%{
+        color:#FCD8D4;
+        text-shadow: 0 0 10px black,
+        0 0 20px #FCD8D4,
+        0 0 40px #FCD8D4,
+        0 0 80px #FCD8D4,
+        0 0 160px white;
+    }
+}
+
+.caixapreçopromo2{
+    width: 622px;
+    height:200px;
+    margin-left: 255px;
+    text-align: center;
+    margin-bottom: center;
+    object-fit: contain;
+    object-position: auto;
+}
+
+.preçopromo2{
+    justify-content: center;
+    text-align: center;
+    font-size: 43px;
+}
+
+.preçopromovalor2{
+    text-shadow: #0b421a;
+    background-color: #0e3742;
+    text-align: center;
+    color:white;
+    font-size: 65px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.preçopromovalor2:hover{
+    color: black;
+    background-color: #FCD8D4;
+}
+
+.lojastarbucks{
+
+    margin-bottom: auto;
+    margin-top:auto;
+
+    object-fit: contain;
+
+
+}
+* {
+    box-sizing: border-box;
+    font-family: ’Lato’, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
+
+.containerfooter {
+    flex: 1;    /* same as flex-grow: 1; */
+}
+
+</style>
+
+<body>
+
+    
+    <!-- <header>
+            <div class ="center">
+                <div class="logo">
+                    <img src="img/logostarbucks.png" alt="logo starbucks" width="111" /> 
+
+                </div>
+                
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="#">About</a>
+                    <a href="#">What's new?</a>
+                </div>
+            </div>
+    </header> -->
+
+    <header class="header">
+        <div class="logo">
+            <a href="https://www.starbucks.com/">
+            <img src="img/logostarbucks.png" alt="logo starbucks" class="logo-image" /> 
+            </a>
+        </div>
+
+        <div class="menu">
+            <a href="./">Home</a>
+            <a href="https://delivery.starbucks.com/">Order now here</a>
+            <a href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/cardapio-sb-brasil.pdf">Menu</a>
+            <a href="https://www.starbucks.com.br/cafe">Coffees</a>
+            <a href="https://www.starbucks.com.br/news/br/nova-experiencia#:~:text=Algumas%20de%20nossas%20iniciativas%20s%C3%A3o,em%20reabertura%2C%20auxiliando%20no%20distanciamento.&text=%2D%20Implementa%C3%A7%C3%A3o%20de%20sinaliza%C3%A7%C3%A3o%20para%20auxiliar,as%20pessoas%20e%20cuidados%20b%C3%A1sicos.">What's new?</a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="a">
+                <div class="texto1-a">
+                    <h2 id="h2-1">Starbucks Proudly presents:</h2>
+                    </div>
+                    <div class="texto1-b">
+                    <h2 id="h2-2" contenteditable="true">Matcha Starbucks Frappuccino!</h2>
+                    </div>
+                    <div class="caixapreçopromo"><a class="preçopromo">Just for: <a class="preçopromovalor">U$ 3.90</a></a></div>
+                    </div>
+               
+                <div class="b">
+                <div>
+                
+            <img src="img/bebida.png" alt="the greatest coffee in the world" class="imagem-direita">  
+                   
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="c">
+            <div class="texto1-c">
+                <h2 id="h2-3">The most refreshing of the summer:</h2>
+            </div>
+            <div class="texto1-d">
+                <h2 id="h2-4" contenteditable="true">Starbucks Skinny Pink Drink</h2>
+                </div>
+                <div class="caixapreçopromo2"><a class="preçopromo2">Just for: <a class="preçopromovalor2">U$ 2.90</a></a>
+                
+                </div>
+
+         </div>
+
+
+    
+
+
+        <div class="d">
+            <img src="img/bebida3.png" alt="" width="360px" height="550px">
+        </div>
+    </div>
+
+
+
+    <div class="container3">
+        <div class="e">
+            <div class="Localização"><p>Nearby you:</p></div>
+
+
+            <div id="map">
+            
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14701.796923541799!2d-43.123487!3d-22.8967956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xebd783f8717d6a9!2sStarbucks!5e0!3m2!1spt-BR!2sbr!4v1629994919011!5m2!1spt-BR!2sbr" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                </div>
+
+
+
+
+        </div>
+
+      
+
+
+    </div>
+
+    <div class="containerfooter"></div>
+    <footer>
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">About</h2>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Resources</h2>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">eBooks</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Contact</h2>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Coffee Letter!</h2>
+          <p>Subscribe to our newsletter to get our latest news.</p>
+          <form>
+            <input type="email" name="email" placeholder="Enter email address">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </section>
+     
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li><a href="#"><img src="img/facebook.png" alt=""><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><img src="img/twitter.png" alt=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><img src="img/instagram.png" alt=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </section>    
+     
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li>&copy; 2021 Copyright Starbucks Inc.</li>
+        </ul>
+      </section>
+    </footer>
+
+
+
+
+  
+
+</body>
+</html>
